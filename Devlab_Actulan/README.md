@@ -21,10 +21,21 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ##Notes Actulan
 
-Pour pouvoir utiliser correctement le projet, il faut:
+Mise en place
 
 - Installer Node via la commande :
 > npm install -g npm
 
 - Récuperer le Fichier NUXT pour cela il vous faut lancer le serveur via la commande:
 > npm run dev
+
+------------
+
+
+Pour l intégration des maquettes, créer plusieurs branches
+
+- Créer une branche : 
+> git branch "name"
+
+- Changer de branche : 
+> git switch "name"

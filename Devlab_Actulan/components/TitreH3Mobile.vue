@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="TitreH3Mobile">
         <article>
             <h3>Mes amis</h3>
             <img src="../assets/img/Plus.png">

@@ -20,8 +20,26 @@
            
        </div>
        </article>
-       <article>
-
+       <article id="calendar_date">
+           <div id="contour">
+               <div id="calendar">
+                <img src="~/assets/img/calendar.png" alt="flechegauche">
+               </div>
+               
+               <aside id="date">
+                   <lan-calendrier>
+                   </lan-calendrier>
+                   <lan-calendrier>
+                   </lan-calendrier>
+                   <lan-calendrier>
+                   </lan-calendrier>
+                   <lan-calendrier>
+                   </lan-calendrier>
+                    <lan-calendrier>
+                   </lan-calendrier>
+                   
+               </aside>
+           </div>
        </article>
        
    </section>
@@ -100,6 +118,41 @@ font-size: 75px;
 }
 #date img{
   padding-top: 15px;
+}
+
+#calendar_date{
+    padding-top: 270px;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+#contour{
+    width: 80%;
+  height: 788px;
+  border-radius: 13px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+  display: flex;
+  
+
+}
+#contour #calendar{
+    width: 50%;
+    height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#contour #date{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 </style>

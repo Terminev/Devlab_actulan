@@ -12,12 +12,13 @@
 
 <style scoped>
     div {
+        margin-top: 55px;
         border: black solid 3px;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
         background-color: white;
-        width: 50%;
+        width: 80%;
         height: 70px;
     }
 

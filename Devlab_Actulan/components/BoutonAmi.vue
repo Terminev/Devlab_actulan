@@ -1,7 +1,7 @@
 <template>
     <div id="BoutonMessage">
     <picture>
-        <img src="../assets/Bouton_Plus.png" alt="">
+        <img src="../assets/img/Bouton_Plus.png" alt="">
     </picture>
 
     <p>Ajouter en ami</p>

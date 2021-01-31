@@ -1,9 +1,9 @@
 <template>
     <footer>
-        <img src="img/logoBlanc.png" alt="Logo Actulan" />
+        <img src="../assets/img/logoBlanc.png" alt="Logo Actulan" />
         <p>Retrouvez nous sur les differents réseaux sociaux</p>
-        <a href="" title="Facebook"><img src="img/facebook.png" alt="Logo Facebook" /></a>
-        <a href="" title="Twitter"><img src="img/twitter.png" alt="Logo Twitter" /></a>
+        <a href="" title="Facebook"><img src="../assets/img/facebook.png" alt="Logo Facebook" /></a>
+        <a href="" title="Twitter"><img src="../assets/img/twitter.png" alt="Logo Twitter" /></a>
         <div>
             <a href="#" title="Calendrier lan">Calendrier</a>
             <a href="#" title="Cgu">Cgu</a>

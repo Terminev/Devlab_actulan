@@ -1,5 +1,5 @@
 <template>
-    <input type="text" placeholder="pseudo" name="pseudo">
+    <input type="text" placeholder= PlaceHolder name= Pseudo>
 </template>
 
 <script>

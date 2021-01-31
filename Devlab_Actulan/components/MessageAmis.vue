@@ -1,8 +1,8 @@
 <template>
     <article>
         <span></span>
-        <img src="img/photo.png" alt="photo de profil">
-        <img src="img/fleche.png" alt="flèche">
+        <img src="../assets/img/photo.png" alt="photo de profil">
+        <img src="../assets/img/fleche.png" alt="flèche">
         <div>
             <h3>Rhom</h3>
             <p>J’aime beaucoup ta photo avec les joueurs…</p>

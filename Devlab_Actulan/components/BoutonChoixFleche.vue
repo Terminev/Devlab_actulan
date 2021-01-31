@@ -3,10 +3,10 @@
         <p>octobre</p>
         <div class="upanddown">
             <div>
-                <img src="img/upanddown.png" alt="">
+                <img src="../assets/img/upanddown.png" alt="">
             </div>
             <div>
-                <img src="img/Dropdown.png" alt="">
+                <img src="../assets/img/Dropdown.png" alt="">
             </div>
         </div>
     </button>

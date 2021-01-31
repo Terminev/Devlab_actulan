@@ -41,6 +41,26 @@
                </aside>
            </div>
        </article>
+       <article id="esport">
+         <div id="txt_btn">
+           <div id="txt">
+           <ul>
+             <li>Créer associations et évènements avec la communauté Actu-Lan !</li>
+             <li>Participer et s'inscrire auprès de diffèrentes associations et évènements !</li>
+             
+           </ul>
+           <ul>
+             <li>Commenter et discuter avec la communauté Actu-Lan !</li>
+             <li>Partager des images de ces moments inoubliables dans la galerie d'images !</li>
+           </ul>
+           </div>
+           
+            <div id="btn">
+            <button>S'incrire</button>
+            </div>
+           
+         </div>
+       </article>
        
    </section>
   
@@ -65,6 +85,10 @@ export default {
 
 
 <style scoped>
+
+#body{
+background: linear-gradient(#667EEA, #754DA4, #764BA2 );
+}
 #map_bloc{
     height: 850px;
     display: flex;
@@ -80,40 +104,36 @@ export default {
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
-width: 876px;
-height: 634px;
+justify-content: space-evenly;
+width: 45%;
+height: 600px;
 background-color: white;
 
 position: absolute;
 right: 0;
 
 }
+#bloc_gauche #paragraphe{
+  width: 55%;
+}
 
 #bloc_gauche p{
-width: 465px;
-  height: 300px;
-font-size: 75px;
+
+font-size: 70px;
+
   
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  text-align: left;
   color: #010005;
 
 }
 #date{
-    width: 465px;
-  height: 50px;
+     width: 55%;
+ 
  display: flex;
  justify-content: space-between;
 
 }
 #date span{
   font-size: 55px;
-  
-  text-align: left;
   color: #6e66c8;
 }
 #date img{
@@ -151,7 +171,60 @@ font-size: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+
+}
+#esport{
+  margin-top: 260px;
+  width: 100%;
+  height: 1000px;
+  background-image: url(~assets/img/fondesportactulan.png);
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-color:rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#txt_btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 80%;
+}
+#txt{
+  display: flex;
+
+}
+#txt li{
+padding-top: 150px;
+font-size: 36px;
+font-weight: bold;
+text-align: left;
+color: #dfe3e8;
+}
+#btn{
+  width: 45%;
+}
+
+#btn button{
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  border: solid 1px #080000;
+  background-color: #f4f3f3;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #020202;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+
 
 }
 

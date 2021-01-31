@@ -12,7 +12,7 @@
 
 <style scoped>
     div {
-        margin-top: 55px;
+        
         border: black solid 3px;
         display: flex;
         flex-wrap: nowrap;

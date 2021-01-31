@@ -4,7 +4,7 @@
         <div id="bloc_gauche">
            <div  id="paragraphe">
             <p>
-            NOS PROCHAINES LANS
+           nos prochaines lans
            </p>
            </div>
            
@@ -118,7 +118,7 @@ right: 0;
 }
 
 #bloc_gauche p{
-
+text-transform: uppercase;
 font-size: 70px;
 
   
@@ -181,7 +181,6 @@ font-size: 70px;
   background-image: url(~assets/img/fondesportactulan.png);
   background-repeat: no-repeat;
   background-position-x: -100px;
-  background-color:rgb(32, 32, 32);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,13 +196,26 @@ font-size: 70px;
 }
 #txt{
   display: flex;
+  justify-content: space-between;
+
+}
+#txt ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 #txt li{
+width: 90%;
 padding-top: 150px;
 font-size: 36px;
 font-weight: bold;
 text-align: left;
+color: #dfe3e8;
+}
+#txt li::marker{
+  margin-top: 20px;
+font-size: 70px;
 color: #dfe3e8;
 }
 #btn{

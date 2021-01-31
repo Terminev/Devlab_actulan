@@ -1,19 +1,19 @@
 <template>
     <header>
         <div id="enteteHeader">
-            <img src="img/logo.png" alt="Logo Actu-Lan">
+            <img src="../assets/img/logo.png" alt="Logo Actu-Lan">
             <form action="">
                 <label for="rechercher">
                     <input type="search" placeholder="Rechercher..." name="rechercher">
                     <button type="submit">
-                        <img src="img/loupe.png" alt="logo loupe">
+                        <img src="../assets/img/loupe.png" alt="logo loupe">
                     </button>
                 </label>
             </form>
             <div>
-                <img src="img/user.png" alt="Icon de l'utilisateur">
-                <img src="img/userMobile.png" alt="Icon de l'utilisateur violet">
-                <img src="img/menu.png" alt="Icon menu burger">
+                <img src="../assets/img/user.png" alt="Icon de l'utilisateur">
+                <img src="../assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
+                <img src="../assets/img/menu.png" alt="Icon menu burger">
                 <a href="#" title="Connexion au compte utilisateur">connexion</a>
                 <a href="#" title="Inscription à Actu-Lan">inscription</a>
             </div>

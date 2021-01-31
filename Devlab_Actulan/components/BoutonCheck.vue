@@ -1,6 +1,6 @@
 <template>
     <button>
-        <img src="img/checked.png" alt="checked">
+        <img src="../assets/img/checked.png" alt="checked">
     </button>
 </template>
 

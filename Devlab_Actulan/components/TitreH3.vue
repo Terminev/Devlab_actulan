@@ -2,7 +2,7 @@
     <div>
         <article>
             <h3>Mes amis</h3>
-            <img src="img/Plus.png">
+            <img src="../assets/img/Plus.png">
         </article>
         <hr>
     </div>

@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <img src="img/logo.png" alt="Logo d'Actu-lan">
+        <img src="../assets/img/logo.png" alt="Logo d'Actu-lan">
         <p>Gestion des membres</p>
         <a href="" title="">Liste des membres</a>
         <a href="" title="">Membres avec droits</a>

@@ -4,7 +4,7 @@
             <p>Valider</p>
         </div>
         <div>
-            <img src="img/checkedWhite.png" alt="checked">
+            <img src="../assets/img/checkedWhite.png" alt="checked">
         </div>
     </button>
 </template>

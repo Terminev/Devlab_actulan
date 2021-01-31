@@ -1,7 +1,7 @@
 <template>
   <button>
     <div>
-      <img src="img/fin.png" alt="plusevenement">
+      <img src="../assets/img/fin.png" alt="plusevenement">
     </div>
     <p>Ajouter un événement</p>
   </button>

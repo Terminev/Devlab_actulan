@@ -1,19 +1,19 @@
 <template>
     <header>
         <div id="enteteHeader">
-            <nuxt-link to="/index.vue"><img src="../assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
+            <nuxt-link to="/"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
             <form action="">
                 <label for="rechercher">
                     <input type="search" placeholder="Rechercher..." name="rechercher">
                     <button type="submit">
-                        <img src="../assets/img/loupe.png" alt="logo loupe">
+                        <img src="~/assets/img/loupe.png" alt="logo loupe">
                     </button>
                 </label>
             </form>
             <div>
-                <img src="../assets/img/user.png" alt="Icon de l'utilisateur">
-                <img src="../assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
-                <img src="../assets/img/menu.png" alt="Icon menu burger">
+                <img src="~/assets/img/user.png" alt="Icon de l'utilisateur">
+                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
+                <img src="~/assets/img/menu.png" alt="Icon menu burger">
                 <nuxt-link to="/connexion">connexion</nuxt-link>
                 <nuxt-link to="/inscription">inscription</nuxt-link>
             </div>

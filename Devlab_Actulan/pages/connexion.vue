@@ -1,6 +1,5 @@
 <template>
    <div class="connexion-body">
-    <Header />
       <div class="connexion-block">
         <TitreSection 
         titre= "CONNEXION"/>
@@ -15,38 +14,30 @@
         <p>OU</p>
         <Facebook />
         <NuxtLink id="inscription" to="/">S'INSCRIRE</NuxtLink>
-      </div>
-      <Footer />
+        </div>
 
    </div>
 </template>
 
 <script>
-import Header from '../../components/Header.vue'
-import TitreSection from '../../components/TitreSection'
-import InputForm from '../../components/InputForm'
-import BoutonValider from '../../components/BoutonValider'
-import Facebook from '../../components/Connexion/FacebookConnect'
-import Footer from '../../components/Footer'
+import TitreSection from '~/components/TitreSection'
+import InputForm from '~/components/InputForm'
+import BoutonValider from '~/components/BoutonValider'
+import Facebook from '~/components/Connexion/FacebookConnect'
 
 export default {
   name: 'connexion',
   components: {
-    Header,
     TitreSection,
     InputForm,
     BoutonValider,
     Facebook,
-    Footer
   }
 }
 
 </script>
 
 <style scoped>
-header{
-  background-color: rgba(255, 255, 255, 0.9);
-}
 .connexion-body {
   background-image: linear-gradient(161deg, #667eea 15%, #764ba2 70%);
 

@@ -1,6 +1,5 @@
 <template>
-  <label class="label-checkbox"> News
-    <input type="checkbox" checked="checked">
+  <label class="label-checkbox"> News <input type="checkbox" checked="checked">
     <span class="checkmark"></span>
 </template>
 

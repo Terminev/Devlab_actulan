@@ -129,7 +129,7 @@ font-size: 75px;
 }
 #contour{
     width: 80%;
-  height: 788px;
+  height: 700px;
   border-radius: 13px;
   border: solid 1px #707070;
   background-color: #ffffff;
@@ -147,7 +147,7 @@ font-size: 75px;
 }
 #contour #date{
     width: 50%;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

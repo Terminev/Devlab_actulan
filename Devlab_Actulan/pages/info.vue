@@ -1,7 +1,5 @@
 <template>
     <div>
-        <Header/>
-
         <section class="main">
             <br>
             <article class="titleh1">
@@ -40,27 +38,20 @@
             <br><br>
 
         </section>
-
-        <Footer/>
     </div>
 </template>
 
 
 <script>
-
-    import Header from '../components/Header';
     import InfoLans from '../components/InfoLans';
     import Titre from '../components/Titre';
     import BoutonEvenement from '../components/BoutonEvenement';
-    import Footer from '../components/Footer';
 
     export default{
         components:{
-            Header,
             InfoLans,
             Titre,
             BoutonEvenement,
-            Footer
         }
     }
 

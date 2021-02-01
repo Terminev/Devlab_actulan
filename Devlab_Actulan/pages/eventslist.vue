@@ -10,7 +10,9 @@
     </div>
     <TableauEvents />
 
-    <div></div>
+    <div class="basdepageEvents">
+      <ChangementsPageEvents />
+    </div>
   </div>
 </template>
 
@@ -22,7 +24,7 @@ export default {};
 
 <style>
 .eventslistbody {
-  height: 150vh;
+  height: 200vh;
   background: linear-gradient(#667eea, #764ba2);
 }
 .bouton {
@@ -31,5 +33,8 @@ export default {};
 }
 .hautdepagestructure {
   padding-top: 100px;
+}
+.basdepageEvents {
+  margin: auto;
 }
 </style>

@@ -6,7 +6,7 @@
     plus"
       id="Plus"
     />
-    Ajouter une structure
+    AJOUTER UNE STRUCTURE
   </button>
 </template>
 

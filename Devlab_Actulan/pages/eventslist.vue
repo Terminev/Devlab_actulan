@@ -8,6 +8,9 @@
         <BoutonAjoutStructure />
       </div>
     </div>
+    <TableauEvents />
+
+    <div></div>
   </div>
 </template>
 
@@ -19,7 +22,7 @@ export default {};
 
 <style>
 .eventslistbody {
-  height: 100vh;
+  height: 150vh;
   background: linear-gradient(#667eea, #764ba2);
 }
 .bouton {

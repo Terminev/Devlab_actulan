@@ -26,7 +26,7 @@
                 <img src="~/assets/img/calendar.png" alt="flechegauche">
                </div>
                
-               <aside id="date">
+               <aside id="composantdate">
                    <lan-calendrier>
                    </lan-calendrier>
                    <lan-calendrier>
@@ -159,7 +159,7 @@ color: #010005;
   align-items: center;
 
 }
-#contour #date{
+#contour #composantdate{
     width: 50%;
     height: 100%;
     display: flex;
@@ -243,23 +243,34 @@ color: #dfe3e8;
     justify-content: flex-end;
     background-image: url(~assets/img/mapactulanv2.png);
     background-repeat: no-repeat;
-    background-position-x: -500px;
+    background-position-x: -900px;
+    background-position-y: -100px;
 }
 #bloc_gauche{
-  display: block;
+  display: initial;
+  top: 350px;
+  justify-content: initial;
   border-radius: 25px 25px 0% 0%;
   width: 100%;
   height: 600px;
-
+  
 }
 #bloc_gauche #paragraphe{
-  width: 90%;
-  height: 30%;
+  padding-top: 20px;
+  width: 60%;
+  padding-left: 30px;
+}
+#bloc_gauche #paragraphe p{
+  font-size: 60px;
 }
 #date{
  width: 100%;
  display: flex;
  flex-direction: column;
+
+}
+#date span{
+padding-left: 30px;
 
 }
 #date img{
@@ -273,9 +284,7 @@ color: #dfe3e8;
 #calendar_date{
     padding-top:0px;
     display: flex;
-    justify-content: center;
-    
-  
+    justify-content: center; 
 }
 
 #contour{
@@ -286,8 +295,40 @@ color: #dfe3e8;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+#contour #calendar{
+    width: 50%;
+    height: 80%;
+  display: flex;
+}
+#esport{
+  padding-bottom: 0px;
+  margin-top: 0px;
   
 
+}
+#txt_btn{
+  width: 100%;
+}
+#txt{
+  width: 80%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#txt ul{
+  display: flex;
+  align-items: center;
+}
+#txt li{
+  padding-top: 60px;
+  font-size: 30px;
+}
+
+#btn{
+  width: 70%;
 }
 }
 

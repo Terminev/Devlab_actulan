@@ -33,6 +33,10 @@
 </script>
 
 <style scoped>
+    header{
+        background-color: #ffffff;
+    }
+    
     a {
         font-size: 20px;
         text-decoration: none;

@@ -12,7 +12,7 @@
             <span>
             voir les dates
            </span>
-           <div>
+           <div id="fleche">
             <img src="~/assets/img/flechegauche.png" alt="flechegauche">
            </div>
            
@@ -93,11 +93,8 @@ background: linear-gradient(#667EEA, #754DA4, #764BA2 );
     height: 850px;
     display: flex;
     align-items: center;
-    
-
     background-image: url(~assets/img/mapactulanv2.png);
     background-repeat: no-repeat;
-
     background-position-x: -500px;
 }
 #bloc_gauche{
@@ -120,14 +117,10 @@ right: 0;
 #bloc_gauche p{
 text-transform: uppercase;
 font-size: 70px;
-
-  
-  color: #010005;
-
+color: #010005;
 }
 #date{
-     width: 55%;
- 
+ width: 55%;
  display: flex;
  justify-content: space-between;
 
@@ -136,6 +129,7 @@ font-size: 70px;
   font-size: 55px;
   color: #6e66c8;
 }
+
 #date img{
   padding-top: 15px;
 }
@@ -175,6 +169,7 @@ font-size: 70px;
 
 }
 #esport{
+  padding-bottom: 260px;
   margin-top: 260px;
   width: 100%;
   height: 1000px;
@@ -195,6 +190,7 @@ font-size: 70px;
   height: 80%;
 }
 #txt{
+  height: 56%;
   display: flex;
   justify-content: space-between;
 
@@ -206,16 +202,16 @@ font-size: 70px;
 
 }
 #txt li{
-width: 90%;
-padding-top: 150px;
+width: 80%;
+
 font-size: 36px;
 font-weight: bold;
 text-align: left;
 color: #dfe3e8;
 }
 #txt li::marker{
-  margin-top: 20px;
-font-size: 70px;
+
+/*font-size: 70px;*/
 color: #dfe3e8;
 }
 #btn{
@@ -238,6 +234,61 @@ color: #dfe3e8;
 @media screen and (max-width: 1024px) {
 
 
+}
+
+@media screen and (max-width: 901px) {
+#map_bloc{
+    height: 800px;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(~assets/img/mapactulanv2.png);
+    background-repeat: no-repeat;
+    background-position-x: -500px;
+}
+#bloc_gauche{
+  display: block;
+  border-radius: 25px 25px 0% 0%;
+  width: 100%;
+  height: 600px;
+
+}
+#bloc_gauche #paragraphe{
+  width: 90%;
+  height: 30%;
+}
+#date{
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+
+}
+#date img{
+  padding-left: 300px;
+  display: flex;
+  margin: auto;
+ transform: rotate(90deg);
+ 
+}
+
+#calendar_date{
+    padding-top:0px;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+#contour{
+    width: 100%;
+    height: 800px;
+    border-radius: 0px;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  
+
+}
 }
 
 </style>

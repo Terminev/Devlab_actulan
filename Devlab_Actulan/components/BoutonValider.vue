@@ -4,12 +4,6 @@
         <p>{{ Text }}</p>
         
         <div>
-<<<<<<< HEAD
-            <p>Valider</p>
-        </div>
-        <div>
-=======
->>>>>>> Sacha
             <img src="../assets/img/checkedWhite.png" alt="checked">
         </div>
     </button>

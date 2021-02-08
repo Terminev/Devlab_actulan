@@ -48,4 +48,11 @@ button {
   right: 4px;
   top: 6px;
 }
+
+@media (max-width: 320px) {
+  input {
+    color: linear-gradient(#667eea, #764ba2);
+    border-radius: 40px;
+  }
+}
 </style>

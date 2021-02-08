@@ -32,4 +32,15 @@ export default {
   width: 10%;
   padding: 0px 5px;
 }
+
+@media (max-width: 320px) {
+  .boutonstructure {
+    border-radius: 40px;
+  }
+
+  .boutonstructure img {
+    width: 6%;
+    padding: 0px 5px;
+  }
+}
 </style>

@@ -51,7 +51,7 @@ export default {
 
 <style>
 .eventslistbody {
-  height: 200vh;
+  height: 100vh;
   background: linear-gradient(#667eea, #764ba2);
 }
 .bouton {
@@ -68,4 +68,36 @@ export default {
 #ListeStructureEvents {
   margin-top: 100px;
 }
+
+@media (max-width: 320px) {
+  .eventslistbody {
+    background: white;
+  }
+
+  .hautdepagestructure {
+    padding-top: 30px;
+  }
+
+  .hautdepagestructure h2 {
+    width: 300px;
+    text-align: inherit;
+  }
+
+  .bouton {
+    display: grid;
+  }
+
+  .boutonstructure {
+    margin-top: 40px;
+  }
+  .changementdepage[data-v-7953cec2] {
+    display: none;
+  }
+  #ListeStructureEvents {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 65px;
+    box-shadow: 4px 4px 6px #aaa;
+  }
+} ;
 </style>

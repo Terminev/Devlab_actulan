@@ -23,4 +23,9 @@ h2 {
   text-align: center;
   border-radius: 9px;
 }
+@media (max-width: 320px) {
+  h2 {
+    margin-bottom: 40px;
+  }
+}
 </style>

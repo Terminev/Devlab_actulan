@@ -84,4 +84,14 @@ td {
 td:first-child {
   text-align: left;
 }
+
+@media (max-width: 320px) {
+  th {
+    font-size: 7px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+}
 </style>

@@ -10,11 +10,21 @@
     </div>
 
     <div id="ListeStructureEvents">
-      <ListeStructure />
+      <ListeStructure
+        Nom="Nom"
+        Lieux="Lieux"
+        Lans="Lans"
+        Nom1="#DITIB2 FIFA 16 PS4"
+        Lieux1="STRASBOURG"
+        Lans1="1"
+        Nom2="13ATable LAN"
+        Lieux2="Martigues"
+        Lans2="7"
+      />
     </div>
 
     <div class="basdepageEvents">
-      <ChangementsPageEvents />
+      <ChangementsPageEvents NumerosPage="1/2" />
     </div>
   </div>
 </template>

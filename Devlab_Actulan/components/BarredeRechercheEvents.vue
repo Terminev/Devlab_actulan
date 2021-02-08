@@ -15,6 +15,9 @@
 </template>
 
 <script>
+export default {
+  name: "BarreRechercheEvents",
+};
 </script>
 
 <style scoped>

@@ -25,7 +25,7 @@ export default {
         justify-content: flex-end;
 
     }
-    div h3 {
+    .TitreH3 h3 {
         padding-left: 40px;
         margin-right: 40px;
         color: #6E66C8;

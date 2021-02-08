@@ -93,4 +93,23 @@ p{
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 640px) {
+  .connexion-block{
+    width: 95%;
+  }
+  .TitreSection{
+    width: 95%;
+  }
+  input{
+    width: 95%;
+  }
+  .BoutonValider{
+    width: 95%;
+  }
+  .FacebookConnect{
+    width: 95%;
+  }
+
+}
+
 </style>

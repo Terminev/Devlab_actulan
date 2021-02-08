@@ -130,4 +130,29 @@ p{
 .captcha{
   width: 400px;
 }
+@media screen and (max-width: 640px){
+  .inscription-block{
+    width: 95%;
+  }
+  .TitreSection{
+    width: 95%;
+  }
+  input{
+    width: 95%;
+  }
+  .BoutonValider{
+    width: 95%;
+  }
+  .FacebookConnect{
+    width: 95%;
+  }
+  .captcha{
+    width: 350px;
+  }
+  .TitreH3 h3{
+    font-size:10px;
+
+  }
+
+}
 </style>

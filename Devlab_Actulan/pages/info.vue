@@ -1,7 +1,5 @@
 <template>
     <div>
-        <Header/>
-
         <section class="main">
             <br>
             <article class="titleh1">
@@ -16,7 +14,7 @@
             <section class="SecondPart" id="pad">
                 <Titre/>
                 <p>L’association 13àtable.lan est une association à but non lucratif (loi 1901).<br><br>
-                Notre objectif est d’organiser des LANs Party dans le Sud de la France de façon à redorer l’image du jeu vidéo en valorisant son aspect communautaire et social. 
+                Notre objectif est d’organiser des LANs Party dans le Sud de la France de façon à redorer l’image du jeu vidéo en valorisant son aspect communautaire et social.
                 Trop souvent montré du doigt par les médias comme source d’exclusion et d’isolement nous tenons à démontrer à travers l’organisation de LANs que le jeu vidéo peut se vivre comme une passion, un sport  et donc procurer les même sensations.<br><br>
                 Une victoire, l’esprit d’equipe, la strategie et la solidatrité autant de valeur que nous partageons avec n’importe quel passioné.<br><br>
                 Une association réunie autour d’une passion commune : le jeu vidéo et l’informatique.<br><br>
@@ -40,8 +38,6 @@
             <br><br>
 
         </section>
-
-        <Footer/>
     </div>
 </template>
 
@@ -78,7 +74,7 @@
     }
 
     /* Pas touche */
-    .main section{ 
+    .main section{
         margin: 5% 0;
     }
 

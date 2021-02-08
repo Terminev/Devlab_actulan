@@ -1,10 +1,14 @@
 <template>
   <div class="H2structure">
-    <h2>STRUCTURES</h2>
+    <h2>{{ titre }}</h2>
   </div>
 </template>
 
 <script>
+export default {
+  name: "TitreStructureH2",
+  props: ["titre"],
+};
 </script>
 
 <style scoped>

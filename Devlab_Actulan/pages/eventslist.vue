@@ -1,14 +1,17 @@
 <template>
   <div class="eventslistbody">
     <div class="hautdepagestructure">
-      <TitreStructureH2 />
+      <TitreStructureH2 titre="STRUCTURES" />
 
       <div class="bouton">
         <BarredeRechercheEvents />
         <BoutonAjoutStructure />
       </div>
     </div>
-    <TableauEvents />
+
+    <div id="ListeStructureEvents">
+      <ListeStructure />
+    </div>
 
     <div class="basdepageEvents">
       <ChangementsPageEvents />
@@ -18,7 +21,21 @@
 
 
 <script>
-export default {};
+import TitreStructureH2 from "../components/TitreStructureH2";
+import BarredeRechercheEvents from "../components/BarredeRechercheEvents";
+import BoutonAjoutStructure from "../components/BoutonAjoutStructure";
+import ListeStructure from "../components/ListeStructure";
+import ChangementsPageEvents from "../components/ChangementsPageEvents";
+
+export default {
+  components: {
+    TitreStructureH2,
+    BarredeRechercheEvents,
+    BoutonAjoutStructure,
+    ListeStructure,
+    ChangementsPageEvents,
+  },
+};
 </script>
 
 
@@ -36,5 +53,9 @@ export default {};
 }
 .basdepageEvents {
   margin: auto;
+}
+
+#ListeStructureEvents {
+  margin-top: 100px;
 }
 </style>

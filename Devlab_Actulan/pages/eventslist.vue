@@ -69,7 +69,7 @@ export default {
   margin-top: 100px;
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 319px) and (max-width: 899px) {
   .eventslistbody {
     background: white;
   }

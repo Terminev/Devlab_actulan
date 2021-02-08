@@ -85,7 +85,7 @@ td:first-child {
   text-align: left;
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 319px) and (max-width: 899px) {
   th {
     font-size: 7px;
   }

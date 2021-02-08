@@ -1,5 +1,7 @@
 <template>
     <div>
+        <Header/>
+
         <section class="main">
             <br>
             <article class="titleh1">
@@ -38,20 +40,27 @@
             <br><br>
 
         </section>
+
+        <Footer/>
     </div>
 </template>
 
 
 <script>
+
+    import Header from '../components/Header';
     import InfoLans from '../components/InfoLans';
     import Titre from '../components/Titre';
     import BoutonEvenement from '../components/BoutonEvenement';
+    import Footer from '../components/Footer';
 
     export default{
         components:{
+            Header,
             InfoLans,
             Titre,
             BoutonEvenement,
+            Footer
         }
     }
 
@@ -141,11 +150,14 @@
             display: block;
         }
 
+        table{
+            width: 100%;
+        }
+
         img{
             width: 100%;
             height: 100%;
-            margin: 0;
-            margin-top: 50px;
+            margin: 50px 0;
         }
 
         p{
@@ -159,7 +171,7 @@
 
      @media screen and (max-width: 825px){
          p{
-            padding: 120px 100px 0 70px;
+            padding: 100px 80px 0 50px;
          }
 
          button{
@@ -190,7 +202,7 @@
          }
 
          p, li{
-            font-size: 22px;
+            font-size: 20px;
             color: #FFFFFF;
          }
 

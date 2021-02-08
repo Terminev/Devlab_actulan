@@ -1,7 +1,6 @@
 <template>
     <div>
         <h4>Info général</h4>
-        <img src="../assets/img/Ligne.png" alt="LigneImage"/>
     </div>
 </template>
 
@@ -16,7 +15,7 @@
     }
 
     h4{
-        font-size: 71px;
+        font-size: 60px;
         font-weight: 500;
         color: #6E66C8;
         display: inline;
@@ -30,6 +29,7 @@
     @media screen and (max-width: 825px){
         h4{
             color: #FFFFFF;
+            font-size: 50px;
         }
     }
 

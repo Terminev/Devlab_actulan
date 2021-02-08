@@ -5,7 +5,7 @@
 
       <div class="bouton">
         <BarredeRechercheEvents />
-        <BoutonAjoutStructure />
+        <BoutonAjoutStructure titre="AJOUTER UNE STRUCTURE" />
       </div>
     </div>
 

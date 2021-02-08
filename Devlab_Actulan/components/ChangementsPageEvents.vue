@@ -1,6 +1,6 @@
 <template>
   <div class="changementdepage">
-    <img src="../assets/img/fleche.png" />
+    <img src="../assets/img/fleche.png" id="flechegauche" />
     <p>1/2</p>
     <img src="../assets/img/fleche.png" />
   </div>
@@ -18,5 +18,8 @@ export default {};
 p {
   padding: 0px 5px;
   color: white;
+}
+#flechegauche {
+  transform: rotate(180deg);
 }
 </style>

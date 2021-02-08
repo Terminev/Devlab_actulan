@@ -6,11 +6,15 @@
     plus"
       id="Plus"
     />
-    AJOUTER UNE STRUCTURE
+    {{ titre }}
   </button>
 </template>
 
 <script>
+export default {
+  name: "BoutonAjoutStructure",
+  props: ["titre"],
+};
 </script>
 
 <style scoped>

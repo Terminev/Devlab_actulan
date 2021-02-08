@@ -131,4 +131,14 @@
         }
 
     }
+
+    @media screen and (max-width: 600px){
+        td:first-child{
+            font-size: 18px;
+        }
+
+        td:last-child{
+            font-size: 16px;
+        }
+    }
 </style>

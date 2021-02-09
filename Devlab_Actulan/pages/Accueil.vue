@@ -116,7 +116,7 @@ right: 0;
 
 #bloc_gauche p{
 text-transform: uppercase;
-font-size: 70px;
+ font-size: 4em;
 color: #010005;
 }
 #date{
@@ -126,7 +126,7 @@ color: #010005;
 
 }
 #date span{
-  font-size: 55px;
+  font-size: 3.5em;
   color: #6e66c8;
 }
 
@@ -175,7 +175,7 @@ color: #010005;
   height: 1000px;
   background-image: url(~assets/img/fondesportactulan.png);
   background-repeat: no-repeat;
-  background-position-x: -100px;
+  background-position-x: -120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,9 +190,10 @@ color: #010005;
   height: 80%;
 }
 #txt{
-  height: 56%;
+  height: 65%;
   display: flex;
   justify-content: space-between;
+padding-left: 100px;
 
 }
 #txt ul{
@@ -202,7 +203,7 @@ color: #010005;
 
 }
 #txt li{
-width: 80%;
+width: 85%;
 
 font-size: 36px;
 font-weight: bold;
@@ -231,9 +232,32 @@ color: #dfe3e8;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1129px) {
+  #bloc_gauche #paragraphe{
+  width: 55%;
+}
+#bloc_gauche #paragraphe p{
+  font-size: 3em;
+}
+#date span{
+  font-size: 3em;
+  
+}
+#txt{
+  width: 100%;
+}
+#txt ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
+}
+#txt li{
+width: 80%;
 
+font-size: 28px;
+
+}
 }
 
 @media screen and (max-width: 901px) {
@@ -252,7 +276,7 @@ color: #dfe3e8;
   justify-content: initial;
   border-radius: 25px 25px 0% 0%;
   width: 100%;
-  height: 600px;
+  height: 560px;
   
 }
 #bloc_gauche #paragraphe{
@@ -302,7 +326,17 @@ padding-left: 30px;
     height: 80%;
   display: flex;
 }
+#contour #composantdate{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
 #esport{
+  height: auto;
   padding-bottom: 0px;
   margin-top: 0px;
   
@@ -312,6 +346,8 @@ padding-left: 30px;
   width: 100%;
 }
 #txt{
+ padding-left: 0;
+  padding-bottom: 60px;
   width: 80%;
   height: 100%;
     display: flex;
@@ -329,7 +365,33 @@ padding-left: 30px;
 
 #btn{
   width: 70%;
+  padding-bottom: 30px;
 }
 }
+
+@media screen and (max-width: 425px) {
+  #bloc_gauche #paragraphe{
+  width: 55%;
+}
+#bloc_gauche #paragraphe p{
+  font-size: 2.4em;
+}
+#date span{
+  font-size: 2.5em;
+  
+}
+
+#txt li{
+font-size: 24px;
+width: 90%;
+
+}
+#btn button{
+  height: 40px;
+  font-size: 24px;
+  
+}
+}
+
 
 </style>

@@ -44,7 +44,18 @@
         width: 50%;
         margin-left: 0;
     }
-
+ @media screen and (max-width: 1375px) {
+        #etiquette {
+        width: 80%;
+       
+    }
+    }
+    @media screen and (max-width: 1024px) {
+        p {
+        font-size: 14px;
+        
+    }
+    }
     @media screen and (max-width: 901px) {
         #etiquette {
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -54,7 +65,7 @@
         flex-wrap: nowrap;
         align-items: center;
        
-        width: 80%;
+        width: 50%;
         height: 40px;
         border-radius: 13px;
     }
@@ -81,4 +92,12 @@
 
     }
     }
+    @media screen and (max-width: 650px) {
+        #etiquette {
+        width: 80%;
+       
+    }
+    }
+    
+
 </style>

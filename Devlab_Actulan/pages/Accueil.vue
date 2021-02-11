@@ -328,40 +328,28 @@
       height: auto;
       padding-bottom: 0px;
       margin-top: 0px;
-
-
     }
 
     #txt {
-      padding: 100px 0;
-    }
-  }
-
-  @media screen and (max-width: 425px) {
-    #bloc_gauche #paragraphe {
-      width: 55%;
-    }
-
-    #bloc_gauche #paragraphe p {
-      font-size: 2.4em;
-    }
-
-    #date span {
-      font-size: 2.5em;
-
+      padding: 100px 0 20px;
     }
 
     #txt li {
       font-size: 24px;
-      width: 90%;
-
     }
 
     #btn button {
-      height: 40px;
+      margin-bottom: 100px;
+       height: 40px;
       font-size: 24px;
+    }
 
+    #bloc_gauche #paragraphe p{
+      font-size: 45px;
+    }
+
+    #bloc_gauche #paragraphe{
+      width: 100%;
     }
   }
-
 </style>

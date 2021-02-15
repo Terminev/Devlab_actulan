@@ -2,7 +2,7 @@
   <div>
     <span>
       <p>{{ date }}</p>
-      <p>{{ titre }}</p>
+      <h5>{{ titre }}</h5>
     </span>
     <p>{{ place }}</p>
   </div>
@@ -22,14 +22,8 @@
     flex-wrap: nowrap;
     align-items: center;
     background-color: white;
-    width: 80%;
-    height: 70px;
     justify-content: space-between;
-  }
-
-  p {
-    margin-left: 10%;
-    text-transform: uppercase;
+    padding: 5px 10px;
   }
 
   span{
@@ -37,29 +31,42 @@
     align-items: center;
   }
 
-  span p:first-child {
+  h5 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 30%;
+    font-weight: 500;
+  }
+
+  p:first-child {
     margin-left: 10px;
     background-color: #6e66c8;
-    padding: 16px 8px;
+    padding: 18px 8px;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 50px;
   }
 
   p:last-child {
+    font-size: 16px;
     margin: 20px;
-  }
-
-  @media screen and (max-width: 1375px) {
-    div {
-      width: 90%;
-    }
+    text-transform: uppercase;
   }
 
   @media screen and (max-width: 1024px) {
-    p {
+    p:first-child {
+      font-size: 12px;
+      padding: 16px 8px;
+    }
+
+    p:last-child {
       font-size: 14px;
+    }
+
+    h5 {
+      font-size: 18px;
+      margin-left: 15%;
     }
   }
 
@@ -68,7 +75,6 @@
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
       background-color: #d8d5d5;
       border: none;
-      width: 70%;
       height: 40px;
       border-radius: 13px;
     }
@@ -78,7 +84,7 @@
       font-size: 14px;
     }
 
-    span p:first-child {
+    p:first-child {
       margin-left: -15px;
     }
 
@@ -86,12 +92,6 @@
       display: flex;
       justify-content: flex-end;
       margin: 10px;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    div {
-      width: 100%;
     }
   }
 </style>

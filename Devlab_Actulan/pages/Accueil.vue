@@ -1,11 +1,9 @@
 <template>
-  <section id="body">
+  <section>
     <article id="map_bloc">
       <div id="bloc_gauche">
         <div id="paragraphe">
-          <p>
-            nos prochaines lans
-          </p>
+          <p>Nos prochaines lans</p>
         </div>
         <div id="date">
           <span>
@@ -64,7 +62,7 @@
 
 
 <style scoped>
-  #body {
+  section {
     background: linear-gradient(#667EEA, #754DA4, #764BA2);
   }
 
@@ -72,7 +70,7 @@
     height: 850px;
     display: flex;
     align-items: center;
-    background-image: url(~assets/img/mapactulanv2.png);
+    background-image: url(~assets/img/mapactulan.png);
     background-repeat: no-repeat;
     background-position-x: -500px;
   }
@@ -245,7 +243,7 @@
       height: 800px;
       display: flex;
       justify-content: flex-end;
-      background-image: url(~assets/img/mapactulanv2.png);
+      background-image: url(~assets/img/mapactulan.png);
       background-repeat: no-repeat;
       background-position-x: -900px;
       background-position-y: -100px;

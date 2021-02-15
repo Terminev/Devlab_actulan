@@ -3,11 +3,16 @@
     <div>
       <img src="../assets/img/fin.png" alt="plusevenement">
     </div>
-    <p>Ajouter un événement</p>
+    <p>{{ Text }}</p>
   </button>
 </template>
 
 <script>
+
+export default{
+    
+    props: ["Text"]
+}
 
 </script>
 

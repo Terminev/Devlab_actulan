@@ -1,12 +1,15 @@
 <template>
     <div>
-        <h4>Info général</h4>
+        <h4>{{ text }}</h4>
         <p><img src="../assets/img/Ligne.png" alt="LigneImage"></p>
     </div>
 </template>
 
 <script>
-
+export default{
+    
+    props: ["text"]
+}
 </script>
 
 <style scoped>

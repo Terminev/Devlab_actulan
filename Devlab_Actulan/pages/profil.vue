@@ -28,7 +28,13 @@
                     
                 </article>
         </div>
+    <BoutonEvenement
+        Text="Ajouter en ami"/>
+    </div>
 
+    <div id="block-structure">
+<Titre
+ text="STRUCTURE"/>
     </div>
        
         
@@ -44,11 +50,15 @@
 import TitreSection from '~/components/TitreSection'
  import TitreH2 from '~/components/TitreH2'
  import PhotoProfile from '~/components/PhotoProfile'
+ import BoutonEvenement from '~/components/BoutonEvenement'
+ import Titre from '~/components/Titre'
 
 export default {
  TitreSection,
  TitreH2,
  PhotoProfile,
+ BoutonEvenement,
+ Titre,
 }
 </script>
 
@@ -61,16 +71,25 @@ export default {
 }
 #block-profil{
     margin-top: 150px;
+   
     width: 70%;
     height: 650px;
     background-color: white;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
 }
-
+#block-profil .TitreSection{
+position:absolute;
+top:300px
+}
 #profil{ 
+    width: 100%;
     height: 200px;
     display:flex;
     justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 #profil_txt h3{
 font-size: 60px;
@@ -114,5 +133,15 @@ color: #020202;
   text-transform: uppercase;
 }
 
-
+#block-structure{
+  margin-top: 150px; 
+    width: 70%;
+    height: 650px;
+    background-color: white;
+}
+#block-structure .Titre h4{
+    font-size: 71px;
+  font-weight: 500;
+  color: #6e66c8;
+}
 </style>

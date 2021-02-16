@@ -35,11 +35,21 @@
     <div id="block-structure">
 <Titre
  text="STRUCTURE"/>
+ <ul>
+     <li>
+         #DITIB2 FIFA 16 PS4
+     </li>
+ </ul>
+ <BoutonEvenement
+        Text="Ajouter en ami"/>
     </div>
        
         <div id="block-evenement">
 <Titre
  text="ÉVÈNEMENTS"/>
+
+ <BoutonEvenement
+        Text="Ajouter un évènements"/>
     </div>
 
    
@@ -142,13 +152,23 @@ color: #020202;
     height: 400px;
     background-color: white;
 }
+#block-structure button{
+ display: flex;
+ float: right;
+ 
+}
 
 #block-evenement{
-  margin-top: 150px; 
+    margin-top: 150px; 
     width: 70%;
     height: 400px;
     background-color: white;
+    
 }
-
+#block-evenement button{
+ display: flex;
+ float: right;
+ 
+}
 
 </style>

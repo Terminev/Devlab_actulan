@@ -18,7 +18,14 @@ export default{
         width: max-content;
     }
 
+h4  {
+    margin-left: 50px;
+    font-size: 50px;
+  font-weight: 500;
+   color: #6e66c8;
+    }
     p{
+        
         font-size: 22px;
         font-weight: 500;
         color: #6E66C8;
@@ -27,7 +34,9 @@ export default{
     }
 
     img{
-        margin-top: 10px;
+        margin-top: 20px;
+        margin-left: 30px;
+       
     }
 
 </style>

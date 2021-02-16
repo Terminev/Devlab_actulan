@@ -15,7 +15,8 @@
   </div>
 </template>
 <script>
-// import { CalendarView, CalendarViewHeader } from "vue-simple-calendar";
+import { CalendarView } from "../components/calendar-view";
+import { CalendarViewHeader } from "../components/calendar-view-header";
 
 // import from "vue-simple-calendar/dist/style.css";
 

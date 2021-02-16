@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <h1>My Calendar</h1>
+
     <calendar-view
       :show-date="showDate"
       class="theme-default holiday-us-traditional holiday-us-official"
@@ -16,7 +17,8 @@
 </template>
 <script>
 import { CalendarView } from "../components/calendar-view";
-import { CalendarViewHeader } from "../components/calendar-view-header";
+
+// import { CalendarViewHeader } from "../components/calendar-view-header";
 
 // import from "vue-simple-calendar/dist/style.css";
 
@@ -28,11 +30,13 @@ import { CalendarViewHeader } from "../components/calendar-view-header";
 export default {
   name: "app",
   data: function () {
-    return { showDate: new Date() };
+    return {
+      showDate: new Date(),
+    };
   },
   components: {
     CalendarView,
-    CalendarViewHeader,
+    // CalendarViewHeader,
   },
   methods: {
     setShowDate(d) {
@@ -41,6 +45,7 @@ export default {
   },
 };
 </script>
+
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

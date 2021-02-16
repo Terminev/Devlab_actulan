@@ -6,13 +6,14 @@
       <article>
         <h2>Nos<br>prochaines<br>lans</h2>
         <div>
-          <p>voir les dates</p><img src="~/assets/img/flechegauche.png" alt="flechegauche">
+          <p>voir les dates</p>
+          <img src="~/assets/img/flechegauche.png" alt="flechegauche">
         </div>
       </article>
     </section>
 
     <section>
-      <img src="~/assets/img/calendar.png" alt="flechegauche">
+      <img src="~/assets/img/calendar.png" alt="calendrier">
       <div>
         <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
         <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
@@ -151,9 +152,9 @@
     section:first-child article {
       width: 100%;
       padding: 30px;
-      top: 700px;
       border-radius: 35px 35px 0 0;
       box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+      position: relative;
     }
 
     section:first-child img:first-child {
@@ -188,6 +189,7 @@
       width: 100%;
       display: block;
       padding: 0 0;
+      margin-top: 80px;
     }
 
     section:nth-child(2) img{
@@ -196,12 +198,18 @@
 
     section:nth-child(2) div{
       width: 100%;
-      margin-left: 50px;
+      margin-left: 0px;
     }
 
     section:nth-child(2) div div{
-      width: 100%;
-      margin: 10px 0px;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    section:nth-child(2) img{
+      width: 300px;
+      display: block;
+      margin : 0 auto;
     }
 
   }
@@ -215,6 +223,10 @@
 @media screen and (max-width: 450px) {
     section:first-child article {
       top: 400px;
+    }
+
+    section:nth-child(2) div div{
+      width: 90%;
     }
 }
 </style>

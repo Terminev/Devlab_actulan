@@ -1,17 +1,17 @@
 <template>
 <div class="profil-body">
        
-    <div id="block-profil">
+    <div class="block-profil">
         <TitreSection
         titre= "PROFIL"/>
-        <div id="profil">
+        <div class="profil">
             <PhotoProfile/> 
-                <div id="profil_txt">
+                <div class="profil_txt">
                    <h3>Silvayn Loiliu</h3>
                     <p>Évènements inscrits </p>
                     <span>Nanterra 2.0</span>
                 </div>
-                <article id="profil_info">
+                <article class="profil_info">
 
                     <div>
                     <img src="../assets/img/user.png" alt="">
@@ -32,12 +32,12 @@
         Text="Ajouter en ami"/>
     </div>
 
-    <div id="block-structure">
+    <div class="block-structure">
 <Titre
  text="STRUCTURE"/>
     </div>
        
-        <div id="block-evenement">
+        <div class="block-evenement">
 <Titre
  text="ÉVÈNEMENTS"/>
     </div>
@@ -72,7 +72,7 @@ export default {
     flex-direction: column;
     align-items: center;
 }
-#block-profil{
+.block-profil{
     margin-top: 150px;
    
     width: 70%;
@@ -82,11 +82,11 @@ export default {
     flex-direction: column;
     align-items: center;   
 }
-#block-profil .TitreSection{
+.block-profil .TitreSection{
 position:absolute;
 top:300px
 }
-#profil{ 
+.profil{ 
     width: 100%;
     height: 200px;
     display:flex;
@@ -94,56 +94,56 @@ top:300px
     padding-top: 150px;
     padding-bottom: 150px;
 }
-#profil_txt h3{
+.profil_txt h3{
 font-size: 60px;
 color: #6E66C8 ;
 margin-bottom: 60px;
 }
-#profil_txt p{
+.profil_txt p{
 font-size: 37px;
 font-weight: 500;
 color: #020202;
 }
-#profil_txt span{
+.profil_txt span{
  font-size: 21px;
 font-weight: 500;
 color: #020202;
 }
-#profil_info{
+.profil_info{
     display: flex;
     flex-direction: column;  
     justify-content: space-between;
     vertical-align: center; 
 }
-#profil_info div{
+.profil_info div{
     display: flex;
    
 
 }
-#profil_info div img{
+.profil_info div img{
     
     width: 36px;
     height: 36px;
 }
-#profil_info div p{
+.profil_info div p{
     font-size: 30px;
   font-weight: bold;
   color: #020202;
   text-align: center;
   margin-left: 35px;
 }
-#profil_info div p:nth-child(2){
+.profil_info div p:nth-child(2){
   text-transform: uppercase;
 }
 
-#block-structure{
+.block-structure{
   margin-top: 150px; 
     width: 70%;
     height: 400px;
     background-color: white;
 }
 
-#block-evenement{
+.block-evenement{
   margin-top: 150px; 
     width: 70%;
     height: 400px;
@@ -151,17 +151,17 @@ color: #020202;
 }
 
 @media screen and (max-width: 1025px) {
-#profil_txt h3{
+.profil_txt h3{
 font-size: 50px;
 color: #6E66C8 ;
 margin-bottom: 60px;
 }
-#profil_txt p{
+.profil_txt p{
 font-size: 30px;
 font-weight: 500;
 color: #020202;
 }
-#profil_txt span{
+.profil_txt span{
  font-size: 20px;
 font-weight: 500;
 color: #020202;
@@ -169,19 +169,19 @@ color: #020202;
 
 
 
-#profil_info div img{
+.profil_info div img{
     
     width: 30px;
     height: 30px;
 }
-#profil_info div p{
+.profil_info div p{
     font-size: 26px;
   font-weight: bold;
   color: #020202;
   text-align: center;
   margin-left: 30px;
 }
-#profil_info div p:nth-child(2){
+.profil_info div p:nth-child(2){
   text-transform: uppercase;
 }
 }
@@ -192,18 +192,18 @@ color: #020202;
     flex-direction: column;
     align-items: center;
 }
-#block-profil .TitreSection{
+.block-profil .TitreSection{
 position:absolute;
 top:150px
 }
-#block-profil{
+.block-profil{
  margin-top:0px;
    
     width: 100%;
      
 }
 
-#profil{ 
+.profil{ 
     width: 100%;
     height: 200px;
     display:flex;
@@ -212,13 +212,13 @@ top:150px
     
 }
 
-#profil_txt h3{
+.profil_txt h3{
 font-size: 40px;
 color: #6E66C8 ;
 margin-bottom: 10px;
 }
 
-#profil_info{
+.profil_info{
     height: 150px;
     display: flex;
     flex-direction: column;  
@@ -226,7 +226,7 @@ margin-bottom: 10px;
     vertical-align: center; 
 }
 
-#profil_info div p{
+.profil_info div p{
     font-size: 20px;
   font-weight: bold;
   color: #020202;
@@ -235,11 +235,11 @@ margin-bottom: 10px;
 }
 
 @media screen and (max-width: 460px) {
-#profil picture{
+.profil picture{
     padding-bottom: 60px;
 }
 
-#block-profil button{
+.block-profil button{
     margin-top: 100px;
 }
 
@@ -249,14 +249,14 @@ margin-bottom: 10px;
 }
 
 @media screen and (max-width: 400px) {
-#profil picture{
+.profil picture{
     padding-bottom: 60px;
 }
-#profil_txt{
+.profil_txt{
     padding-bottom: 60px;
 }
 
-#block-profil button{
+.block-profil button{
     margin-top: 230px;
 }
 }

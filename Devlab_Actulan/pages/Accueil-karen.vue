@@ -120,7 +120,46 @@
   }
 
   section:last-child{
+      background-image: url(~assets/img/fondesportactulan.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      padding: 200px 0 50px;
+  }
 
+  section:last-child div ul{
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: #dfe3e8;
+    margin-bottom: 150px;
+  }
+
+  section:last-child div ul li {
+    font-size: 36px;
+    font-weight: bold;
+    color: #dfe3e8;
+    width: 500px;
+    margin: 0 65px;
+  }
+
+  button {
+    width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    border: solid 1px #080000;
+    background-color: #f4f3f3;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #020202;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+  }
+
+  button:hover{
+    cursor: pointer;
   }
 
   @media screen and (max-width: 1380px) {
@@ -155,6 +194,7 @@
       border-radius: 35px 35px 0 0;
       box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
       position: relative;
+      top: -50px;
     }
 
     section:first-child img:first-child {
@@ -189,7 +229,7 @@
       width: 100%;
       display: block;
       padding: 0 0;
-      margin-top: 80px;
+      margin-top: 0px;
     }
 
     section:nth-child(2) img{
@@ -212,21 +252,38 @@
       margin : 0 auto;
     }
 
+    section:last-child{
+      padding-top: 100px;
+    }
+
+    section:last-child div ul{
+      display: block;
+      margin: 0 10%;
+    }
+
+    section:last-child div ul li {
+      font-size: 26px;
+      width: 90%;
+      margin: 50px 0;
+    }
+
+    button{
+      margin-bottom: 100px;
+      height: 40px;
+      font-size: 24px;
+      width: 80%;
+    }
+
   }
 
-@media screen and (max-width: 650px) {
-    section:first-child article {
-      top: 500px;
-    }
-}
 
 @media screen and (max-width: 450px) {
-    section:first-child article {
-      top: 400px;
-    }
-
     section:nth-child(2) div div{
       width: 90%;
+    }
+
+    section:last-child div ul li {
+      font-size: 20px;
     }
 }
 </style>

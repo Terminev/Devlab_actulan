@@ -36,7 +36,7 @@ h4  {
     img{
         margin-top: 20px;
         margin-left: 30px;
-       
+        width: 56%;
     }
 
 </style>

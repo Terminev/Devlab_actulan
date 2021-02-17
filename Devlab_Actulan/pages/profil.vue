@@ -150,5 +150,122 @@ color: #020202;
     background-color: white;
 }
 
+@media screen and (max-width: 1025px) {
+#profil_txt h3{
+font-size: 50px;
+color: #6E66C8 ;
+margin-bottom: 60px;
+}
+#profil_txt p{
+font-size: 30px;
+font-weight: 500;
+color: #020202;
+}
+#profil_txt span{
+ font-size: 20px;
+font-weight: 500;
+color: #020202;
+}
 
+
+
+#profil_info div img{
+    
+    width: 30px;
+    height: 30px;
+}
+#profil_info div p{
+    font-size: 26px;
+  font-weight: bold;
+  color: #020202;
+  text-align: center;
+  margin-left: 30px;
+}
+#profil_info div p:nth-child(2){
+  text-transform: uppercase;
+}
+}
+@media screen and (max-width: 900px) {
+.profil-body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#block-profil .TitreSection{
+position:absolute;
+top:150px
+}
+#block-profil{
+ margin-top:0px;
+   
+    width: 100%;
+     
+}
+
+#profil{ 
+    width: 100%;
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+}
+
+#profil_txt h3{
+font-size: 40px;
+color: #6E66C8 ;
+margin-bottom: 10px;
+}
+
+#profil_info{
+    height: 150px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    vertical-align: center; 
+}
+
+#profil_info div p{
+    font-size: 20px;
+  font-weight: bold;
+  color: #020202;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 460px) {
+#profil picture{
+    padding-bottom: 60px;
+}
+
+#block-profil button{
+    margin-top: 100px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+#profil picture{
+    padding-bottom: 60px;
+}
+#profil_txt{
+    padding-bottom: 60px;
+}
+
+#block-profil button{
+    margin-top: 230px;
+}
+}
+
+
+
+
+
+
+
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-   <p class="TitreSection">{{ titre }}</p>
+   <p>{{ titre }}</p>
 </template>
 
 <script>
@@ -13,10 +13,10 @@ export default{
 </script>
 
 <style scoped>
-.TitreSection {
+p {
     background-color: #F4F3F3;
-    width: 30%;
-    padding: 3px;
+    width: 60%;
+    padding: 6px 0px;
     border: 1px solid black;
     border-radius: 15px;
     font-size: 30px;
@@ -24,5 +24,15 @@ export default{
     text-align: center;
     text-transform: uppercase;
     color: black;
+}
+
+@media screen and (max-width:900px) {
+  p{
+      background-color: initial;
+      border: none;
+      padding: 0 0 0 100px;
+      text-align: left;
+      width: 100%;
+  }
 }
 </style>

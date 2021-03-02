@@ -1,7 +1,7 @@
 <template>
   <div class="profil-body">
     <section class="block-profil">
-      <TitreSection titre="PROFIL" />
+      <TitreSection titre="Profil" />
       <div class="profil">
         <PhotoProfile />
         <div class="profil_txt">

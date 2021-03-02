@@ -122,6 +122,7 @@
   section:last-child{
       background-image: url(~assets/img/fondesportactulan.png);
       background-repeat: no-repeat;
+      background-size: cover;
       width: 100%;
       padding: 200px 0 50px;
   }

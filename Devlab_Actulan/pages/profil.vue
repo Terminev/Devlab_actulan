@@ -61,7 +61,6 @@
 
   .block-profil {
     margin-top: 150px;
-
     width: 70%;
     height: 650px;
     background-color: white;
@@ -102,31 +101,33 @@
     color: #020202;
   }
 
+  .profil_txt{
+     margin: 0 20px;
+  }
+
   .profil_info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     vertical-align: center;
+    margin: 0 20px;
   }
 
   .profil_info div {
     display: flex;
-
-
   }
 
   .profil_info div img {
-
     width: 36px;
     height: 36px;
   }
 
   .profil_info div p {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: #020202;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 15px;
   }
 
   .profil_info div p:nth-child(2) {

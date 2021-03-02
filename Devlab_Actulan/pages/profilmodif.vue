@@ -1,17 +1,17 @@
 <template>
   <div class="profil-body">
-       
+
     <div class="block-profil">
         <TitreSection
         titre= "PROFIL"/>
         <section class="profil">
             <div class="imgprofil">
-                <PhotoProfile/> 
+                <PhotoProfile/>
             </div>
 
                 <div class="profil_txt">
                    <h3>Silvayn Loiliu</h3>
-                
+
                 <div class="infomodif">
                     <label><img src="../assets/img/user.png" alt=""><input type="text" ></label>
                     <label><img src="../assets/img/indication.png" alt=""><input type="text" ></label>
@@ -25,25 +25,20 @@
 
 
 
-
-
-
-
-<!-- 
-    <div id="block-structure">
+   <div id="block-structure">
 <Titre
  text="STRUCTURE"/>
     </div>
-       
+
         <div id="block-evenement">
 <Titre
  text="ÉVÈNEMENTS"/>
-    </div> -->
+    </div>
 
-   
 
- 
-</div>  
+
+
+</div>
 
 
 
@@ -82,32 +77,30 @@ export default {
 
 <style scoped>
 .profil-body{
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .block-profil{
     margin-top: 150px;
-   
+
     width: 70%;
     height: 650px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
 }
 .block-profil .TitreSection{
 position:absolute;
 top:300px
 }
 
-.profil .imgprofil{
-    width: 20%;
-}
 
 
-.profil{ 
+
+.profil{
     width: 100%;
     height: 200px;
     display:flex;
@@ -132,7 +125,7 @@ color: #6E66C8 ;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+
 }
 .infomodif label{
  margin-top: 50px;
@@ -149,36 +142,128 @@ width: 260px;
     width: 40px;
     height: 40px;
     margin-right: 30px;
-   
-    
+
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #block-structure{
-  margin-top: 150px; 
+  margin-top: 150px;
     width: 70%;
     height: 400px;
     background-color: white;
 }
 
 #block-evenement{
-  margin-top: 150px; 
+  margin-top: 150px;
     width: 70%;
     height: 400px;
     background-color: white;
 }
+
+@media screen and (max-width: 900px) {
+  .profil-body{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+
+  .block-profil{
+ width: 100%;
+
+
+}
+
+  .block-profil .TitreSection{
+margin: auto;
+top:150px
+}
+.profil{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  padding-top: 50px;
+  padding-bottom: 90px;
+
+}
+.imgprofil {
+  width:auto;
+  display: flex;
+margin: auto;
+}
+.profil_txt {
+ display: flex;
+margin: auto;
+width: 60%;
+}
+
+.profil_txt h3{
+  margin: auto;
+font-size: 50px;
+}
+
+.infomodif label{
+ margin-top: 40px;
+padding-left: 20px;
+width: 100%;
+
+}
+
+.infomodif input{
+width: 80%;
+  height: 26px;
+}
+
+.infomodif label img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+}
+
+
+@media screen and (max-width: 483px){
+.profil_txt{
+  width: 70%;
+}
+.profil_txt h3{
+font-size: 40px;
+}
+.infomodif input{
+width: 78%;
+}
+
+}
+
+@media screen and (max-width: 425px){
+.profil_txt{
+  width: 90%;
+}
+
+.profil_txt {
+ display: flex;
+margin: auto;
+width: 100%;
+}
+
+.infomodif input{
+
+  height: 20px;
+}
+
+.infomodif label img{
+    width: 26px;
+    height: 26px;
+
+
+
+}
+
+
+
+}
+
+
 </style>

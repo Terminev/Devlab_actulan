@@ -14,12 +14,42 @@
 
     <section>
       <img src="~/assets/img/calendar.png" alt="calendrier">
-      <div>
-        <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
-        <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
-        <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
-        <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
-        <LanCalendrier date="15/01" titre="Nanatera" place="15 places" />
+      <div class="LanCalendrier">
+        <div>
+          <span>
+            <p>15/01</p>
+            <h5>Nanatera</h5>
+          </span>
+          <p>15 places</p>
+        </div>
+         <div>
+          <span>
+            <p>15/01</p>
+            <h5>Nanatera</h5>
+          </span>
+          <p>15 places</p>
+        </div>
+         <div>
+          <span>
+            <p>15/01</p>
+            <h5>Nanatera</h5>
+          </span>
+          <p>15 places</p>
+        </div>
+         <div>
+          <span>
+            <p>15/01</p>
+            <h5>Nanatera</h5>
+          </span>
+          <p>15 places</p>
+        </div>
+         <div>
+          <span>
+            <p>15/01</p>
+            <h5>Nanatera</h5>
+          </span>
+          <p>15 places</p>
+        </div>
       </div>
     </section>
 
@@ -49,7 +79,7 @@
 
 </script>
 <style scoped>
-  *{
+  * {
     box-sizing: border-box;
   }
 
@@ -95,7 +125,7 @@
     margin-left: 50px;
   }
 
-  section:nth-child(2){
+  section:nth-child(2) {
     border-radius: 13px;
     border: solid 1px #707070;
     background-color: #ffffff;
@@ -105,29 +135,113 @@
     padding: 35px 90px;
   }
 
-  section:nth-child(2) img{
+  section:nth-child(2) img {
     width: 600px;
   }
 
-  section:nth-child(2) div{
+  /* Composant LanCalendrier */
+  .LanCalendrier div {
+    border: black solid 2px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+  .LanCalendrier span {
+    display: flex;
+    align-items: center;
+  }
+
+  .LanCalendrier h5 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-left: 30%;
+    font-weight: 500;
+  }
+
+  .LanCalendrier p:first-child {
+    margin-left: 10px;
+    background-color: #6e66c8;
+    padding: 18px 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+
+  .LanCalendrier p:last-child {
+    font-size: 16px;
+    margin: 20px;
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .LanCalendrier p:first-child {
+      font-size: 12px;
+      padding: 16px 8px;
+    }
+
+    .LanCalendrier p:last-child {
+      font-size: 14px;
+    }
+
+    .LanCalendrier h5 {
+      font-size: 18px;
+      margin-left: 15%;
+    }
+  }
+
+  @media screen and (max-width: 901px) {
+    .LanCalendrier div {
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: #d8d5d5;
+      border: none;
+      height: 40px;
+      border-radius: 13px;
+    }
+
+    .LanCalendrier p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .LanCalendrier p:first-child {
+      margin-left: -15px;
+    }
+
+    .LanCalendrier p:last-child {
+      display: flex;
+      justify-content: flex-end;
+      margin: 10px;
+    }
+  }
+
+  /* Fin composant */
+
+
+
+  section:nth-child(2) .LanCalendrier {
     width: 100%;
     margin-left: 50px;
   }
 
-  section:nth-child(2) div div{
+  section:nth-child(2) .LanCalendrier div {
     width: 100%;
     margin: 10px 0px;
   }
 
-  section:last-child{
-      background-image: url(~assets/img/fondesportactulan.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      padding: 200px 0 50px;
+  section:last-child {
+    background-image: url(~assets/img/fondesportactulan.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 50px;
   }
 
-  section:last-child div ul{
+  section:last-child div ul {
     font-size: 26px;
     display: flex;
     justify-content: center;
@@ -159,7 +273,7 @@
     display: block;
   }
 
-  button:hover{
+  button:hover {
     cursor: pointer;
   }
 
@@ -183,7 +297,7 @@
       margin-left: 30px;
     }
 
-    section:nth-child(2){
+    section:nth-child(2) {
       padding: 35px 30px;
     }
   }
@@ -224,7 +338,7 @@
       margin: 70px auto 40px;
     }
 
-    section:nth-child(2){
+    section:nth-child(2) {
       border-radius: 0;
       border: none;
       width: 100%;
@@ -233,31 +347,31 @@
       margin-top: 0px;
     }
 
-    section:nth-child(2) img{
+    section:nth-child(2) img {
       width: 600px;
     }
 
-    section:nth-child(2) div{
+    section:nth-child(2) .LanCalendrier {
       width: 100%;
       margin-left: 0px;
     }
 
-    section:nth-child(2) div div{
+    section:nth-child(2) .LanCalendrier div {
       width: 80%;
       margin: 20px auto;
     }
 
-    section:nth-child(2) img{
+    section:nth-child(2) img {
       width: 300px;
       display: block;
-      margin : 0 auto;
+      margin: 0 auto;
     }
 
-    section:last-child{
+    section:last-child {
       padding-top: 100px;
     }
 
-    section:last-child div ul{
+    section:last-child div ul {
       display: block;
       margin: 0 10%;
     }
@@ -268,7 +382,7 @@
       margin: 50px 0;
     }
 
-    button{
+    button {
       margin-bottom: 100px;
       height: 40px;
       font-size: 24px;
@@ -278,13 +392,17 @@
   }
 
 
-@media screen and (max-width: 450px) {
-    section:nth-child(2) div div{
+  @media screen and (max-width: 450px) {
+    section:nth-child(2) .LanCalendrier div {
       width: 90%;
     }
 
     section:last-child div ul li {
       font-size: 20px;
     }
-}
+  }
+
+
+
+
 </style>

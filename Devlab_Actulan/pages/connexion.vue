@@ -1,15 +1,15 @@
 <template>
    <div class="connexion-body">
       <div class="connexion-block">
-        <TitreSection 
+        <TitreSection
         titre= "CONNEXION"/>
-        <InputForm 
+        <InputForm
         PlaceHolder= "PSEUDO"
         Name= "pseudo"/>
-        <InputForm 
+        <InputForm
         PlaceHolder= "MOT DE PASSE"
         Name= "password"/>
-        <BoutonValider 
+        <BoutonValider
         Text="Connexion"/>
         <p>OU</p>
         <Facebook />
@@ -44,7 +44,7 @@ export default {
 }
 .connexion-block{
   border-radius: 13px;
-  
+
   width: 80%;
   margin: 100px auto;
   background-color: white;
@@ -69,7 +69,7 @@ input{
 p{
   font-size: 41px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #6e66c8;
+  color: $violet;
   font-weight:bold
 }
 .FacebookConnect{

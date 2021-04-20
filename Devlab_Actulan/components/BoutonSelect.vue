@@ -106,7 +106,7 @@
   font-family: Roboto;
   text-transform: uppercase;
   width:40%;
-  
+
 }
 
 .custom-select select {
@@ -116,8 +116,8 @@
 .select-selected {
     background-color: #6E66C8;
     border-radius: 30px;
-    
-    
+
+
 }
 /*style the arrow inside the select element:*/
 .select-selected:after {
@@ -157,7 +157,7 @@
   cursor: pointer;
   user-select: none;
   color: white;
-  
+
 }
 
 /*style items (options):*/
@@ -168,8 +168,8 @@
   text-align:center;
   right: 0;
   z-index: 99;
-  
-  
+
+
 }
 .select-items div:nth-child(odd) {
     background-color: white;
@@ -190,8 +190,8 @@
 }
 
 
-    
-    
+
+
 
     @media screen and (max-width: 900px) {
         .custom-select {

@@ -40,7 +40,7 @@
 
   p:first-child {
     margin-left: 10px;
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     padding: 18px 8px;
     color: white;
     font-size: 15px;

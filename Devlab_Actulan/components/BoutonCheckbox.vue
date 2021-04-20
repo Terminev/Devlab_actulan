@@ -48,7 +48,7 @@
 
   /* When the checkbox is checked, add a blue background */
   .label-checkbox input:checked~.checkmark {
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     border-radius: 10px;
     border: none;
     width: 40px;

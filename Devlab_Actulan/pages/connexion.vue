@@ -69,7 +69,7 @@ input{
 p{
   font-size: 41px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: $violet;
+  color: #6E66C8;
   font-weight:bold
 }
 .FacebookConnect{

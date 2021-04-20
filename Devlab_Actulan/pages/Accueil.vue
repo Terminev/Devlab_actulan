@@ -108,7 +108,7 @@
 
   #date span {
     font-size: 3.5em;
-    color: $violet;
+    color: #6E66C8;
   }
 
   #date img {

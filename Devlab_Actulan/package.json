@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "nuxt": "^2.15.4"
+    "nuxt": "^2.14.12",
+    "vue": "^2.6.12"
   },
   "devDependencies": {}
 }

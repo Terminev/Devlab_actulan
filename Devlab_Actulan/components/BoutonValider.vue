@@ -1,15 +1,9 @@
 <template>
     <button class="BoutonValider">
-        
+
         <p>{{ Text }}</p>
-        
+
         <div>
-<<<<<<< HEAD
-            <p>Valider</p>
-        </div>
-        <div>
-=======
->>>>>>> Sacha
             <img src="../assets/img/checkedWhite.png" alt="checked">
         </div>
     </button>
@@ -27,7 +21,7 @@ export default {
         width: 300px;
         height: 60px;
         border-radius: 47px;
-        background-color: #6e66c8;
+        background-color: #6E66C8;
         border: none;
         border-style: none;
         display: flex;
@@ -40,7 +34,7 @@ export default {
         font-weight: bold;
         letter-spacing: normal;
         color: #f4f3f3;
-        
+
         margin-left: 30px;
         align-items: center;
         justify-content: center;
@@ -51,7 +45,7 @@ export default {
         width: 25px;
     }
 
-    
+
 
 
     @media screen and (max-width: 1300px) {

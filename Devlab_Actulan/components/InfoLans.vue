@@ -68,7 +68,7 @@
 </template>
 
 <script>
-    
+
 </script>
 
 <style scoped>
@@ -131,6 +131,7 @@
         }
 
     }
+<<<<<<< HEAD
 
     @media screen and (max-width: 600px){
         td:first-child{
@@ -142,3 +143,6 @@
         }
     }
 </style>
+=======
+</style>
+>>>>>>> Louis-Axel

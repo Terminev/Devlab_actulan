@@ -1,7 +1,7 @@
 <template>
     <header>
         <div id="enteteHeader">
-            <nuxt-link to="/"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
+            <nuxt-link to="/accueil"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
             <form action="">
                 <label for="rechercher">
                     <input type="search" placeholder="Rechercher..." name="rechercher">
@@ -12,7 +12,7 @@
             </form>
             <div>
                 <img src="~/assets/img/user.png" alt="Icon de l'utilisateur">
-                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
+                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur #6E66C8">
                 <img src="~/assets/img/menu.png" alt="Icon menu burger">
                 <nuxt-link to="/connexion">connexion</nuxt-link>
                 <nuxt-link to="/inscription">inscription</nuxt-link>

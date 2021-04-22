@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('../font/robotoRegular.ttf') format('truetype');    
+    src: url('../font/robotoRegular.ttf') format('truetype');
 }
 
 *{
@@ -8,10 +8,7 @@
     padding: 0;
     font-family: 'Roboto';
 }
-<<<<<<< HEAD
 
 body{
     background: linear-gradient(#667EEA, #754DA4, #764BA2);
 }
-=======
->>>>>>> Louis-Axel

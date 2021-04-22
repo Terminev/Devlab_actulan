@@ -116,7 +116,7 @@
   section:first-child article div p {
     font-size: 35px;
     font-weight: 500;
-    color: violet;
+    color: #6E66C8;
   }
 
   section:first-child article div img {
@@ -164,7 +164,7 @@
 
   .LanCalendrier p:first-child {
     margin-left: 10px;
-    background-color: violet;
+    background-color: #6E66C8;
     padding: 18px 8px;
     color: white;
     font-size: 15px;

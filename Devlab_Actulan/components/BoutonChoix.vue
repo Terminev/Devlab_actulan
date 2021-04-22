@@ -2,7 +2,7 @@
     <button>
         <span>Supports</span>
         <div>
-            <img src="../assets/img/down-chevron.png" alt="chevron">
+            <img src="../assets/img/Dropdown.png" alt="chevron">
         </div>
     </button>
 </template>

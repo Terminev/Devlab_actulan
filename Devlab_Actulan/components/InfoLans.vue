@@ -76,7 +76,7 @@
         border-collapse: collapse;
         border-radius: 13px;
         overflow: hidden;
-        width: 100%;
+        width: 48%;
     }
 
     th,
@@ -85,7 +85,7 @@
     }
 
     tr {
-        height: 70px;
+        height: 60px;
     }
 
     body {
@@ -102,14 +102,14 @@
 
     td:first-child {
         color: #020202;
-        font-size: 37px;
+        font-size: 26px;
         font-weight: bold;
         text-align: initial;
         text-transform: uppercase;
     }
 
     td:last-child {
-        color: #6E66C8;
+        color: #020202;
         font-size: 20px;
         font-weight: 500;
         text-align: end;
@@ -131,4 +131,18 @@
         }
 
     }
+<<<<<<< HEAD
+
+    @media screen and (max-width: 600px){
+        td:first-child{
+            font-size: 18px;
+        }
+
+        td:last-child{
+            font-size: 16px;
+        }
+    }
 </style>
+=======
+</style>
+>>>>>>> Louis-Axel

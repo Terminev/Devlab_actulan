@@ -7,7 +7,7 @@
 
 <script>
 export default{
-    
+
     props: ["text"]
 }
 </script>
@@ -25,7 +25,7 @@ h4  {
    color: #6e66c8;
     }
     p{
-        
+
         font-size: 22px;
         font-weight: 500;
         color: #6E66C8;

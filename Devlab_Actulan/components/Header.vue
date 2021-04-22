@@ -1,7 +1,7 @@
 <template>
     <header>
         <div id="enteteHeader">
-            <nuxt-link to="/"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
+            <nuxt-link to="/accueil"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
             <form action="">
                 <label for="rechercher">
                     <input type="search" placeholder="Rechercher..." name="rechercher">

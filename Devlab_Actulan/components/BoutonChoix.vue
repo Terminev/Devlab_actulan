@@ -8,7 +8,7 @@
 </template>
 
 <script>
-    
+
 </script>
 
 <style scoped>
@@ -16,7 +16,7 @@
         width: 36%;
         height: 60px;
         border-radius: 43px;
-        background-color: #6e66c8;
+        background-color: #6E66C8;
         display: flex;
         justify-content: space-between;
         border: none;

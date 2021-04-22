@@ -44,7 +44,7 @@
 
     div h2 {
         margin-right: 40px;
-        color: #6E66C8;
+        color:  #6E66C8;
         font-size: 50px;
         font-weight: 600;
         text-transform: uppercase;

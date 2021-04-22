@@ -17,7 +17,7 @@
     width: 20%;
     border-radius: 37px;
     border: solid 1px #707070;
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     display: flex;
     justify-content: space-evenly;
     padding-top: 9px;

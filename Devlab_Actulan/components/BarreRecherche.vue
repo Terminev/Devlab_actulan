@@ -1,7 +1,7 @@
 <template>
   <form action="">
     <label for="Rechercher">
-      <input type="search" placeholder="Rechercher un organisme" />
+      <input type="search" placeholder="Rechercher un organisme">
       <button type="submit">
         <img src="../assets/img/loupe.png" alt="loupe" id="loupe" />
       </button>

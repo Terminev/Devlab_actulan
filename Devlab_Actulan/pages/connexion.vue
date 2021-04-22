@@ -1,15 +1,22 @@
 <template>
-  <div class="connexion-body">
-    <div class="connexion-block">
-      <TitreSection titre="CONNEXION" />
-      <InputForm PlaceHolder="PSEUDO" Name="pseudo" />
-      <InputForm PlaceHolder="MOT DE PASSE" Name="password" />
-      <BoutonValider Text="Connexion" />
-      <p>OU</p>
-      <Facebook />
-      <NuxtLink id="inscription" to="/">S'INSCRIRE</NuxtLink>
-    </div>
-  </div>
+   <div class="connexion-body">
+      <div class="connexion-block">
+        <TitreSection
+        titre= "CONNEXION"/>
+        <InputForm
+        PlaceHolder= "PSEUDO"
+        Name= "pseudo"/>
+        <InputForm
+        PlaceHolder= "MOT DE PASSE"
+        Name= "password"/>
+        <BoutonValider
+        Text="Connexion"/>
+        <p>OU</p>
+        <Facebook />
+        <nuxt-link id="inscription" to="/">S'INSCRIRE</nuxt-link>
+        </div>
+
+   </div>
 </template>
 
 <script>
@@ -56,10 +63,9 @@ input {
 }
 p {
   font-size: 41px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  color: #6e66c8;
-  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6E66C8;
+  font-weight:bold
 }
 .FacebookConnect {
   margin: 30px 0px;
@@ -73,4 +79,5 @@ p {
   text-decoration: none;
   margin-bottom: 40px;
 }
+
 </style>

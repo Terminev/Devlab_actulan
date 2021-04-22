@@ -21,7 +21,7 @@
     h3 {
         font-size: 30px;
         font-weight: 500;
-        color: #6e66c8;
+        color: #6E66C8;
     }
 
     p {
@@ -35,8 +35,8 @@
         padding: 10px 30px;
         display: flex;
         align-items: center;
-        border-top: 3px dotted #6e66c8;
-        border-bottom: 3px dotted #6e66c8;
+        border-top: 3px dotted #6E66C8;
+        border-bottom: 3px dotted #6E66C8;
     }
 
     img {
@@ -50,7 +50,7 @@
     span {
         width: 30px;
         height: 30px;
-        background-color: #6e66c8;
+        background-color: #6E66C8;
         border-radius: 30px;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         margin-right: 20px;

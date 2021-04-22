@@ -12,7 +12,7 @@
             </form>
             <div>
                 <img src="~/assets/img/user.png" alt="Icon de l'utilisateur">
-                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
+                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur #6E66C8">
                 <img src="~/assets/img/menu.png" alt="Icon menu burger">
                 <nuxt-link to="/connexion">connexion</nuxt-link>
                 <nuxt-link to="/inscription">inscription</nuxt-link>

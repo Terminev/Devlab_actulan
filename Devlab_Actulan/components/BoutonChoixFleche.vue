@@ -23,7 +23,7 @@
         margin: 0 3px 0 2px;
         padding: 8px 15.1px 9px 17px;
         border-radius: 25px;
-        background-color: #6e66c8;
+        background-color: #6E66C8;
         display: flex;
         justify-content: space-around;
     }

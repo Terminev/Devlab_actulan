@@ -17,7 +17,7 @@ export default{
   button {
     border-radius: 37px;
     border: solid 1px #707070;
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     display: flex;
     justify-content: space-evenly;
     padding: 15px 40px;
@@ -65,4 +65,15 @@ export default{
     }
   }
 
+  @media screen and (max-width: 488px) {
+    button {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 302px) {
+    button {
+      width: 100%;
+    }
+  }
 </style>

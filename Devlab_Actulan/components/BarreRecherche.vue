@@ -10,10 +10,10 @@
 </template>
 
 <script>
-    
+
 </script>
 
-<style scoped>
+    <style scoped>
     form {
         align-items: center;
         background-color: white;

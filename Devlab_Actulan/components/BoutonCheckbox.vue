@@ -1,6 +1,7 @@
 <template>
   <label class="label-checkbox"> News <input type="checkbox" checked="checked">
     <span class="checkmark"></span>
+  </label>
 </template>
 
 <script>
@@ -47,7 +48,7 @@
 
   /* When the checkbox is checked, add a blue background */
   .label-checkbox input:checked~.checkmark {
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     border-radius: 10px;
     border: none;
     width: 40px;

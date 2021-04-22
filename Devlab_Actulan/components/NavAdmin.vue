@@ -50,7 +50,7 @@
         padding-top: 25px;
         font-size: 20px;
         font-weight: bold;
-        color: #6e66c8;
+        color: #6E66C8;
         text-transform: uppercase;
         text-align: center;
     }

@@ -1,8 +1,15 @@
 <template>
     <button class="BoutonValider">
-        
+
         <p>{{ Text }}</p>
+<<<<<<< HEAD
         
+        <div>
+            
+        </div>
+=======
+
+>>>>>>> Louis-Axel
         <div>
             <img src="../assets/img/checkedWhite.png" alt="checked">
         </div>
@@ -18,14 +25,14 @@ export default {
 
 <style scoped>
     button {
-        width: 300px;
+        width: 30%;
         height: 60px;
         border-radius: 47px;
-        background-color: #6e66c8;
+        background-color: #6E66C8;
         border: none;
         border-style: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
 
@@ -34,7 +41,7 @@ export default {
         font-weight: bold;
         letter-spacing: normal;
         color: #f4f3f3;
-        
+
         margin-left: 30px;
         align-items: center;
         justify-content: center;
@@ -45,33 +52,33 @@ export default {
         width: 25px;
     }
 
-    
+
 
 
     @media screen and (max-width: 1300px) {
-        button {
-            width: 20%;
-
-        }
-    }
-
-    @media screen and (max-width: 900px) {
         button {
             width: 30%;
 
         }
     }
 
+    @media screen and (max-width: 900px) {
+        button {
+            width: 40%;
+
+        }
+    }
+
     @media screen and (max-width: 650px) {
         button {
-            width: 50%;
+            width: 60%;
 
         }
     }
 
     @media screen and (max-width: 400px) {
         button {
-            width: 80%;
+            width: 90%;
 
         }
     }

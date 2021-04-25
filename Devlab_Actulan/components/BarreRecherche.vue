@@ -3,17 +3,17 @@
         <label for="Rechercher">
             <input type="search" placeholder="Rechercher un organisme">
             <button type="submit">
-                <img src="img/loupe.png" alt="loupe" id="loupe">
+                <img src="../assets/img/loupe.png" alt="loupe" id="loupe">
             </button>
         </label>
     </form>
 </template>
 
 <script>
-    
+
 </script>
 
-<style scoped>
+    <style scoped>
     form {
         align-items: center;
         background-color: white;

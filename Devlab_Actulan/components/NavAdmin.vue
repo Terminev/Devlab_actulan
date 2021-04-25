@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <img src="img/logo.png" alt="Logo d'Actu-lan">
+        <img src="../assets/img/logo.png" alt="Logo d'Actu-lan">
         <p>Gestion des membres</p>
         <a href="" title="">Liste des membres</a>
         <a href="" title="">Membres avec droits</a>
@@ -50,7 +50,7 @@
         padding-top: 25px;
         font-size: 20px;
         font-weight: bold;
-        color: #6e66c8;
+        color: #6E66C8;
         text-transform: uppercase;
         text-align: center;
     }

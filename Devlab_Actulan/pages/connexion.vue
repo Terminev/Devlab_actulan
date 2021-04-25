@@ -1,59 +1,50 @@
 <template>
    <div class="connexion-body">
-    <Header />
       <div class="connexion-block">
-        <TitreSection 
+        <TitreSection
         titre= "CONNEXION"/>
-        <InputForm 
+        <InputForm
         PlaceHolder= "PSEUDO"
         Name= "pseudo"/>
-        <InputForm 
+        <InputForm
         PlaceHolder= "MOT DE PASSE"
         Name= "password"/>
-        <BoutonValider 
+        <BoutonValider
         Text="Connexion"/>
         <p>OU</p>
         <Facebook />
         <NuxtLink id="inscription" to="/">S'INSCRIRE</NuxtLink>
-      </div>
-      <Footer />
+        </div>
 
    </div>
 </template>
 
 <script>
-import Header from '../../components/Header.vue'
-import TitreSection from '../../components/TitreSection'
-import InputForm from '../../components/InputForm'
-import BoutonValider from '../../components/BoutonValider'
-import Facebook from '../../components/Connexion/FacebookConnect'
-import Footer from '../../components/Footer'
+import TitreSection from '~/components/TitreSection'
+import InputForm from '~/components/InputForm'
+import BoutonValider from '~/components/BoutonValider'
+import Facebook from '~/components/Connexion/FacebookConnect'
 
 export default {
   name: 'connexion',
   components: {
-    Header,
     TitreSection,
     InputForm,
     BoutonValider,
     Facebook,
-    Footer
   }
 }
 
 </script>
 
 <style scoped>
-header{
-  background-color: rgba(255, 255, 255, 0.9);
-}
 .connexion-body {
   background-image: linear-gradient(161deg, #667eea 15%, #764ba2 70%);
 
 }
 .connexion-block{
   border-radius: 13px;
-  
+
   width: 80%;
   margin: 100px auto;
   background-color: white;
@@ -78,7 +69,7 @@ input{
 p{
   font-size: 41px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #6e66c8;
+  color: #6E66C8;
   font-weight:bold
 }
 .FacebookConnect{

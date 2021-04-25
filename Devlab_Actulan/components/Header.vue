@@ -1,29 +1,29 @@
 <template>
     <header>
         <div id="enteteHeader">
-            <img src="../assets/img/logo.png" alt="Logo Actu-Lan">
+            <nuxt-link to="/accueil"><img src="~/assets/img/logo.png" alt="Logo Actu-Lan"></nuxt-link>
             <form action="">
                 <label for="rechercher">
                     <input type="search" placeholder="Rechercher..." name="rechercher">
                     <button type="submit">
-                        <img src="../assets/img/loupe.png" alt="logo loupe">
+                        <img src="~/assets/img/loupe.png" alt="logo loupe">
                     </button>
                 </label>
             </form>
             <div>
-                <img src="../assets/img/user.png" alt="Icon de l'utilisateur">
-                <img src="../assets/img/userMobile.png" alt="Icon de l'utilisateur violet">
-                <img src="../assets/img/menu.png" alt="Icon menu burger">
-                <a href="#" title="Connexion au compte utilisateur">connexion</a>
-                <a href="#" title="Inscription à Actu-Lan">inscription</a>
+                <img src="~/assets/img/user.png" alt="Icon de l'utilisateur">
+                <img src="~/assets/img/userMobile.png" alt="Icon de l'utilisateur #6E66C8">
+                <img src="~/assets/img/menu.png" alt="Icon menu burger">
+                <nuxt-link to="/connexion">connexion</nuxt-link>
+                <nuxt-link to="/inscription">inscription</nuxt-link>
             </div>
         </div>
         <nav class="nav">
-            <a href="#" title="Calendrier Lan">Calendrier</a>
-            <a href="#" title="Structure Lan">Structure</a>
-            <a href="#" title="Galerie Lan">Galerie</a>
-            <a href="#" title="Recherche Actu-Lan">Recherche</a>
-            <a href="#" title="Archives Actu-Lan">Archives</a>
+            <nuxt-link to="/calendrier">Calendrier</nuxt-link>
+            <nuxt-link to="/structure">Structure</nuxt-link>
+            <nuxt-link to="/galerie">Galerie</nuxt-link>
+            <nuxt-link to="/recherche">Recherche</nuxt-link>
+            <nuxt-link to="/archives">Archives</nuxt-link>
         </nav>
     </header>
 </template>
@@ -33,6 +33,10 @@
 </script>
 
 <style scoped>
+    header{
+        background-color: #ffffff;
+    }
+    
     a {
         font-size: 20px;
         text-decoration: none;

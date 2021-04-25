@@ -1,10 +1,14 @@
 @font-face {
     font-family: 'Roboto';
-    src: url('../font/robotoRegular.ttf') format('truetype');    
+    src: url('../font/robotoRegular.ttf') format('truetype');
 }
 
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+}
+
+body{
+    background: linear-gradient(#667EEA, #754DA4, #764BA2);
 }

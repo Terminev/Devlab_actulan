@@ -1,85 +1,67 @@
 <template>
   <button>
     <div>
-      <img src="img/fin.png" alt="plusevenement">
+      <span>+</span>
     </div>
-    <p>Ajouter un événement</p>
+    <p>{{ Text }}</p>
   </button>
 </template>
 
 <script>
-
+export default{
+    props: ["Text"]
+}
 </script>
 
 <style scoped>
   button {
-    height: 60px;
-    width: 20%;
     border-radius: 37px;
     border: solid 1px #707070;
-    background-color: #6e66c8;
+    background-color: #6E66C8;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 9px;
+    padding: 15px 40px;
+  }
+
+  button:hover{
+    cursor: pointer;
   }
 
   button p {
-    padding-top: 7px;
+    padding: 7px 64px 0px 75px;
     font-size: 20px;
     font-weight: bold;
     color: #fafafd;
     text-transform: uppercase;
   }
 
-  @media screen and (max-width: 1530px) {
+  div{
+    border-radius: 50px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.81);
+    background-color: #f9f8fa;
+    width: 35px;
+    height : 35px;
+  }
+
+  span{
+     font-size: 22px;
+    font-weight: bold;
+     color: #6e66c8;
+     text-align: center;
+     display: block;
+     padding-top: 4px;
+  }
+
+  @media screen and (max-width: 488px) {
     button p {
-      padding-top: 10px;
-      font-size: 15px;
-
+      padding: 5px 25px 0px 25px;
+      font-size: 19px;
+       text-transform: initial;
     }
-  }
 
-  @media screen and (max-width: 1210px) {
-    button p {
-      padding-top: 13px;
-      font-size: 12px;
-
-    }
-  }
-
-  @media screen and (max-width: 1020px) {
     button {
-      width: 30%;
-    }
-
-    button p {
-      padding-top: 10px;
-      font-size: 15px;
-
-    }
-  }
-
-  @media screen and (max-width: 824px) {
-    button {
-      width: 40%;
-    }
-
-    button p {
-      padding-top: 10px;
-      font-size: 15px;
-
-    }
-  }
-
-  @media screen and (max-width: 610px) {
-    button {
-      width: 50%;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    button {
-      width: 50%;
+     border-radius: 10px;
+      padding: 10px 20px;
     }
   }
 

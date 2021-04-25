@@ -2,7 +2,7 @@
     <div class="TitreH3Mobile">
         <article>
             <h3>Mes amis</h3>
-            <img src="img/Plus.png">
+            <img src="../assets/img/Bouton_Plus.png">
         </article>
         <hr>
     </div>

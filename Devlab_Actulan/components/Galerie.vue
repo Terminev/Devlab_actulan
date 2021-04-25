@@ -2,26 +2,26 @@
     <section>
         <h2>Ajouts récents</h2>
         <div>
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
-            <img src="img/img04.png" alt="photo">
+            <!-- <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo">
+            <img src="../assets/img/img04.png" alt="photo"> -->
         </div>
     </section>
 </template>

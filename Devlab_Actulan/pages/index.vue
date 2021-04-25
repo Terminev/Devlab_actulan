@@ -81,6 +81,8 @@
 <style scoped>
   * {
     box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto';
   }
 
   section:first-child img {
@@ -394,5 +396,5 @@
     section:nth-child(2) .LanCalendrier div {
       width: 90%;
     }
-
+  }
 </style>
